@@ -9,6 +9,7 @@ PKG_VERSION:=0.0.1
 PKG_RELEASE:=5
 
 LUCI_TITLE:=Wireshark-helper Web UI
+LUCI_URL:=https://github.com/stangri/luci-app-wireshark-helper/
 LUCI_DESCRIPTION:=Provides Web UI for Wireshark-helper.
 LUCI_DEPENDS:=+luci-compat +luci-base +wireshark-helper
 
