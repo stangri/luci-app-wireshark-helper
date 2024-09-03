@@ -13,6 +13,6 @@ LUCI_URL:=https://github.com/stangri/luci-app-wireshark-helper/
 LUCI_DESCRIPTION:=Provides Web UI for Wireshark-helper.
 LUCI_DEPENDS:=+luci-compat +luci-base +wireshark-helper
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
