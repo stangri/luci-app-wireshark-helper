@@ -2,7 +2,7 @@
 -- Licensed to the public under the Apache License 2.0.
 
 local packageName = "wireshark-helper"
-local readmeURL = "https://docs.openwrt.melmac.net/" .. packageName .. "/"
+local readmeURL = "https://docs.openwrt.melmac.ca/" .. packageName .. "/"
 local uci = require "luci.model.uci".cursor()
 local sys = require "luci.sys"
 local util = require "luci.util"
